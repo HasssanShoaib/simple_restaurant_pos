@@ -2,8 +2,7 @@ import React from "react";
 
 const OrderButton = props => {
   return (
-    <button
-        className="orderbutton"
+    <button className="btn btn-danger"
         disabled={
           props.selectedTable === null ||
           props.tableStatusData[props.selectedTable] === false

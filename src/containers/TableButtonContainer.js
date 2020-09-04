@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import TableButton from "../components/TableButton.jsx";
+import TableButton from "../components/TableButton";
 import selectTable from "../actions/selectTable.js";
 
 const mapStateToProps = state => {

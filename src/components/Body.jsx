@@ -5,11 +5,27 @@ import Menu from "./Menu.jsx";
 
 const Body = () => {
   return (
-    <div className="body">
-      <DetailsContainer />
+    // <div className="body">
+    //    <Layout />
+    //    <Menu />
+    //    <DetailsContainer />
+    // </div>
+    
+  <div className="container">
+  <div className="row text-center">
+    <div className="col-sm-4">
       <Layout />
-      <Menu />
     </div>
+    <div className="col-sm-4">
+    <Menu />
+    </div>
+    <div className="col-sm-4">
+    <DetailsContainer />
+    </div>
+  </div>
+</div>
+
+
   );
 };
 

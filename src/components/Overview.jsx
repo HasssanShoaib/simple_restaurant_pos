@@ -1,18 +1,27 @@
 import React from "react";
 
-const Overview = props => {
+const Overview = (props) => {
   var numTables = 0;
-  for (let i = 0; i < props.tableStatusData.length; i++) {
+  for (let i = 1; i < props.tableStatusData.length; i++) {
     numTables += props.tableStatusData[i];
   }
   return (
-    <div className="overview">
-      <h1>Hanoi Pizza Restaurant</h1>
-        <p>
-          Occupied Tables: {numTables}/16 |
-          Earned Money: {props.moneyEarned}$
-        </p>
+<div className="container bg-faded">
+    <h1 className="text-center">Zubi Restaurant</h1>
+    <hr/>
+    <div className="row">
+        <div className="col-xs-6">
+            <div className="center-block well text-center" >
+            Occupied Tables: {numTables}/15
+            </div>
+        </div>
+        <div className="col-xs-6">
+            <div className="center-block well text-center" >
+            Earned Money: ${props.moneyEarned} 
+            </div>
+        </div>
     </div>
+  </div>
   );
 };
 

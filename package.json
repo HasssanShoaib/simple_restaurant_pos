@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.11.0",
     "all": "^0.0.0",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.13.1",
     "react-redux": "^5.1.1",
     "react-scripts": "^3.4.3",
+    "reactstrap": "^8.5.1",
     "redux": "^4.0.1"
   },
   "scripts": {
